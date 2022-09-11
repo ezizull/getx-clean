@@ -1,16 +1,41 @@
-# getx_clean
 
-A new Flutter project.
+# Getx Clean 
+
+Clean Architecture for GetX
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Before run, add below to "android/app/build.gradle"
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+```bash
+android { 
+    compileSdkVersion 33
+    ....
+}
+```
+
+```bash
+defaultConfig { 
+    ....
+    minSdkVersion 18
+    ....
+}
+```
+
+Run in supported Flutter Language Software
+
+## Acknowledgements
+
+ - [Fakestore API](https://fakestoreapi.com/docs)
+ - [Readme Generator](https://readme.so/id)
+
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ezizul/)
+
