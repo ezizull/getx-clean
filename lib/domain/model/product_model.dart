@@ -1,3 +1,4 @@
+// Project imports:
 import 'package:getx_clean/domain/entities/product_entity.dart';
 import 'package:getx_clean/domain/model/product_category_model.dart';
 import 'package:getx_clean/domain/model/product_rating_model.dart';

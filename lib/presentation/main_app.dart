@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 
 // Package imports:
 import 'package:get/get.dart';
-import 'package:getx_clean/app/config/route_config.dart';
-import 'package:getx_clean/presentation/screen/home/home_binding.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 // Project imports:
+import 'package:getx_clean/app/config/route_config.dart';
+import 'package:getx_clean/presentation/screen/home/home_binding.dart';
 import 'package:getx_clean/presentation/screen/home/home_screen.dart';
 
 class MainApp extends StatelessWidget {

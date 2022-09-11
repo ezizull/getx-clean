@@ -1,4 +1,7 @@
+// Package imports:
 import 'package:get/get.dart';
+
+// Project imports:
 import 'package:getx_clean/app/core/auth/auth_controller.dart';
 import 'package:getx_clean/data/auth_repository_impl.dart';
 import 'package:getx_clean/domain/usecases/login_usecase.dart';

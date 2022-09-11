@@ -1,4 +1,10 @@
+// Flutter imports:
+import 'package:flutter/animation.dart';
+
+// Package imports:
 import 'package:get/get.dart';
+
+// Project imports:
 import 'package:getx_clean/app/utils/transitions.dart';
 import 'package:getx_clean/presentation/screen/home/home_binding.dart';
 import 'package:getx_clean/presentation/screen/home/home_screen.dart';
@@ -6,6 +12,7 @@ import 'package:getx_clean/presentation/screen/product/product_binding.dart';
 import 'package:getx_clean/presentation/screen/product/product_screen.dart';
 
 class AppRoute {
+  // custom as you want
   static final pages = [
     //  customTransition
     GetPage(
@@ -14,7 +21,7 @@ class AppRoute {
       binding: HomeBinding(),
       middlewares: [],
       customTransition: AppTrans.slide(),
-      transitionDuration: const Duration(milliseconds: 500),
+      transitionDuration: const Duration(milliseconds: 400),
     ),
 
     GetPage(
@@ -22,8 +29,9 @@ class AppRoute {
       page: () => const ProductScreen(),
       binding: ProductBinding(),
       middlewares: [],
-      customTransition: AppTrans.fade(),
-      transitionDuration: const Duration(milliseconds: 500),
+      customTransition: AppTrans.slide(),
+      curve: Curves.easeInToLinear,
+      transitionDuration: const Duration(milliseconds: 400),
     ),
 
     // Transition
@@ -33,7 +41,7 @@ class AppRoute {
       binding: HomeBinding(),
       middlewares: [],
       transition: Transition.fadeIn,
-      transitionDuration: const Duration(milliseconds: 500),
+      transitionDuration: const Duration(milliseconds: 400),
     ),
   ];
 }

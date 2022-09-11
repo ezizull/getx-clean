@@ -1,3 +1,4 @@
+// Project imports:
 import 'package:getx_clean/domain/entities/user_entity.dart';
 import 'package:getx_clean/domain/model/user_address_model.dart';
 import 'package:getx_clean/domain/model/user_name_model.dart';

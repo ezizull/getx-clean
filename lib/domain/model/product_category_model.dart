@@ -1,5 +1,6 @@
 // ignore_for_file: non_constant_identifier_names
 
+// Project imports:
 import 'package:getx_clean/domain/entities/product_entity.dart';
 
 final ProductCategoryValue = EnumValues({

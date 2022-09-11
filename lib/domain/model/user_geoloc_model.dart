@@ -1,3 +1,4 @@
+// Project imports:
 import 'package:getx_clean/domain/entities/user_geoloc_enitity.dart';
 
 class UserGelocModel extends UserGeolocEntity {
