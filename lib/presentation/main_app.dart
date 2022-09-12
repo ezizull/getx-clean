@@ -26,14 +26,12 @@ class MainApp extends StatelessWidget {
 
   Widget builderApp(context, dynamic child) {
     return ResponsiveWrapper.builder(
-      child,
-      maxWidth: 1200,
-      minWidth: 480,
-      defaultScale: true,
+      ClampingScrollWrapper.builder(context, child!),
       breakpoints: const [
         ResponsiveBreakpoint.resize(480, name: MOBILE),
         ResponsiveBreakpoint.autoScale(800, name: TABLET),
         ResponsiveBreakpoint.resize(1000, name: DESKTOP),
+        ResponsiveBreakpoint.autoScale(1700, name: 'XL'),
       ],
     );
   }
